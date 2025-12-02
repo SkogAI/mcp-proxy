@@ -15,9 +15,17 @@
       "command": "/home/skogix/skogai/tools/mcp/server/index.js",
       "args": ["/home/skogix/skogai/tools"],
       "env": {},
-      "options": {
-        "logEnabled": true
-      }
+      "transportType": "stdio"
+    },
+    "skogai-librarian": {
+      "command": "/home/skogix/skogai/tools/mcp/server/index.js",
+      "args": ["/home/skogix/skogai/tools", "librarian"],
+      "env": {},
+      "transportType": "stdio"
+    },
+    "skogai-memory": {
+      "url": "https://memory.skogai.se/mcp",
+      "transportType": "streamable-http"
     }
   }
 }

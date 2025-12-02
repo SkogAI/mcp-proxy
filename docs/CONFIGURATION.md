@@ -45,10 +45,7 @@ This project supports a v2 JSON configuration. v1 configs are automatically migr
     },
     "amap": {
       // SSE client
-      "url": "https://mcp.amap.com/sse?key=<YOUR_TOKEN>",
-      "options": {
-        "disabled": true
-      }
+      "url": "https://mcp.amap.com/sse?key=<YOUR_TOKEN>"
     }
   }
 }
@@ -85,7 +82,6 @@ Common fields:
 - `toolFilter` (object): Selectively expose tools to the proxy:
   - `mode`: `allow` or `block`.
   - `list`: List of tool names.
-- `Disabled` (bool): Enable or disable this server. Disabled servers are skipped at startup.
 
 Notes:
 
